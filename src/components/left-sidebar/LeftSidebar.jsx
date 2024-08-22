@@ -12,6 +12,11 @@ const LeftSidebar = () => {
                 <img src={assets.skz} className='logo-skz' alt =""/>
                 <div className='menu'>
                     <img src={assets.menu} alt =""/>
+                    <div className='sub-menu'>
+                        <p>Edit Profile</p>
+                        <hr />
+                        <p>Logout</p>
+                    </div>
                 </div>
             </div>
             <div className='ls-search'>
