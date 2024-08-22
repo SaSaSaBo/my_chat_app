@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import './Login.css';
-import skz from '../../assets/skz.png';
+import assets from'../../assets/assets.js';
 
 const Login = () => {
 
@@ -10,7 +10,7 @@ const Login = () => {
 
   return (
     <div className='login'>
-      <img src={skz} alt="" className='logo' />
+      <img src={assets.skz} alt="" className='logo' />
       <form className='login-form'>
         <h2>{currState}</h2>
         <input type='text' placeholder='Username' className='form-input' required/>
