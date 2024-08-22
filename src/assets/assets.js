@@ -1,6 +1,8 @@
 import add from "./add.png";
+import background from "./background.png";
 import changbin from "./changbin.jpg";
 import chat from "./chat.png";
+import dot from "./dot.png";
 import edu from "./edu.png";
 import help from "./help.png";
 import image from "./image.png";
@@ -18,8 +20,10 @@ import user from "./user.png";
 
 const assets = {
     add,
+    background,
     changbin,
     chat,
+    dot,
     edu,
     help,
     image,

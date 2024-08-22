@@ -25,8 +25,8 @@ const LeftSidebar = () => {
                     <div key={index} className='friends'>
                         <img src={assets.changbin} alt="" />
                         <div>
-                            <p>Bang Chris</p>
-                            <span>Hello, Did you write the song?</span>
+                            <p>Seo Changbin</p>
+                            <span>Hello, Did you finish the song?</span>
                         </div>
                     </div>                
                 ))
